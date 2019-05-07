@@ -3,6 +3,9 @@
 @Grab(group='pathwaycommons', module='chilay-sbgn', version='3.0.0')
 @Grab(group='org.biopax.paxtools', module='paxtools-core', version='5.1.0')
 @Grab(group='org.biopax.paxtools', module='sbgn-converter', version='5.1.0')
+@Grab(group='javax.xml.bind', module='jaxb-api', version='2.3.0')
+@Grab(group='com.sun.xml.bind', module='jaxb-core', version='2.3.0')
+@Grab(group='com.sun.xml.bind', module='jaxb-impl', version='2.3.0')
 
 import java.io.*;
 import java.util.*;
